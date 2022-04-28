@@ -1,0 +1,11 @@
+ What are the different data types present in javascript?
+Explain Hoisting in javascript.
+Explain heigher order functions in javascript.
+Differences between declaring variables using var, let and const.
+
+let marks = [[100,91,65],[99,94,41,34,22]];
+let n = 5;
+
+reverse string using reduce
+data transfer between two unrelated components
+lifescycle hooks

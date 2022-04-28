@@ -1,0 +1,11 @@
+
+
+function getMaxValues(marksArray,occ){
+  let finalMarksArr = marksArray[0].concat(marksArray[1])
+  let sortedMarks = finalMarksArr.sort(function (a, b) {  return b - a; });
+  let result = sortedMarks.slice(0,n)
+  console.log(result)
+}
+let marks = [[100,91,65],[99,94,41,34,22]];
+let n = 5;
+getMaxValues(marks,n)

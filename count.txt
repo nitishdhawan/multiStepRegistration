@@ -1,0 +1,12 @@
+function countIndividualOccurence(number){
+	let digits = number.toString().split('');
+	var realDigits = digits.map(Number)
+	let map = realDigits.reduce((a, e) => a.set(e, (a.get(e) || 0) + 1), new Map());
+	console.log(...map)
+  }
+
+countIndividualOccurence(6343222)
+
+
+difference between map filter and reduce
+new Map functions -- getter and setter
